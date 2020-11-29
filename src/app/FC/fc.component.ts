@@ -10,4 +10,5 @@ import {Component} from '@angular/core';
 
 export class FcComponent {
   footballclubs = ['Feynoord', 'PSV', 'Ajax'];
+  bestplayer:string = 'Ziyech';
 }
