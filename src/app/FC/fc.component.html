@@ -1,3 +1,13 @@
-<h1> Football Clubs in the dutch leauge </h1>
+<h1> Dutch leauge Info </h1>
+<p>the player of the month is {{playerOfTheMonth}} </p>
 
-<p> {{bestplayer}}  </p>
+<div *ngFor="let footballclub of footballclubs">
+  {{footballclub}}
+</div>
+
+
+<ul *ngFor="let club in footballclubs">
+  <li >
+    {{club}}
+  </li>
+</ul>
