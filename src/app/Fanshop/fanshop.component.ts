@@ -12,5 +12,7 @@ export class FanshopComponent {
     setTimeout(() => {
       this.ajaxfans = false;
     }, 3000);
+    setTimeout(() => {this.psvfans = true;
+    }, 3000);
     }
   }
