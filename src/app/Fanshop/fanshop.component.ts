@@ -9,14 +9,8 @@ export class FanshopComponent {
   ajaxfans = true;
   psvfans = false;
   constructor() {
-    setTimeout(()=> {},3000) {
-      
-    }
-    changePSVSupportStatement(){
-      this.psvfans = true;
+    setTimeout(() => {
+      this.ajaxfans = false;
+    }, 3000);
     }
   }
-  changeSupportStatement() {
-    this.ajaxfans = !true;
-  }
-}
