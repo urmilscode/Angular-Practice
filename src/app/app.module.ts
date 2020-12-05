@@ -9,6 +9,8 @@ import {FanshopComponent} from './Fanshop/fanshop.component';
 import {WarningAlertComponent} from './WarningAlert/warning.component';
 import {SuccessComponent} from './SuccessAlert/success.component';
 import {FootballComponent} from './FootballClubs/football.component';
+import {PlayersComponent} from './Players/players.component';
+import { ServersComponent } from './servers/servers.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import {FootballComponent} from './FootballClubs/football.component';
     FanshopComponent,
     WarningAlertComponent,
     SuccessComponent,
-    FootballComponent
+    FootballComponent,
+    PlayersComponent,
+    ServersComponent
   ],
   imports: [
     BrowserModule,
