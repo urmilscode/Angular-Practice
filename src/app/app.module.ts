@@ -11,6 +11,9 @@ import {SuccessComponent} from './SuccessAlert/success.component';
 import {FootballComponent} from './FootballClubs/football.component';
 import {PlayersComponent} from './Players/players.component';
 import { ServersComponent } from './servers/servers.component';
+import {FormsModule} from '@angular/forms';
+import {CandidateComponent} from './Candidate/candidate.component';
+
 
 @NgModule({
   declarations: [
@@ -22,11 +25,13 @@ import { ServersComponent } from './servers/servers.component';
     SuccessComponent,
     FootballComponent,
     PlayersComponent,
-    ServersComponent
+    ServersComponent,
+    CandidateComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

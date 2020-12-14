@@ -1,5 +1,4 @@
-
-import {Component} from '@angular/core';
+import { Component } from '@angular/core';
 
 
 @Component({
@@ -10,3 +9,4 @@ import {Component} from '@angular/core';
 export class PlayerlistComponent {
   playerList = ['Ziyech', 'Huntelaar', 'Mario Goetze', 'tadic'];
 }
+

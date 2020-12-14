@@ -10,6 +10,10 @@ export class ServersComponent implements OnInit {
   serverCreationStatus = 'Affermative';
   applicantName = '';
   footballerName = '';
+  clubName = '';
+  playerOfTheTournament = 'Fernando Torres';
+  spielerVonDeiSaison = 'Füssballgott von Bayern';
+  spielerVonLaLiga = '';
   constructor() {
     console.log('this is a servers component');
     setTimeout(() => {
@@ -24,13 +28,15 @@ export class ServersComponent implements OnInit {
   serverChangedAgain() {
     this.serverWasCreated = false;
   }
-  getApplicantName($event: Event) {
+  getApplicantName(event: Event) {
     //console.log(event);
     this.applicantName = (<HTMLInputElement> event.target).value;
   }
-   getFootballerName($event: Event) {
+   getFootballerName(event: Event) {
     //console.log(event);
      this.footballerName = (<HTMLInputElement> event.target).value;
   }
-
+  getClubName(event: Event) {
+    this.clubName = (<HTMLInputElement> event.target).value;
+  }
 }

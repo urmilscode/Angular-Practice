@@ -22,5 +22,31 @@
 
 
 <label for="">Footballer Name</label>
-<input type="text" (input)="getFootballerName()">
+<input type="text" (input)="getFootballerName($event)">
 <h1> {{footballerName}} </h1>
+
+
+<label for = "">Footballer Club </label>
+<input type="text" (input) = "getClubName($event)">
+<h1> {{clubName}} </h1>
+
+<label for="">Player of the tournament</label>
+<!-- <input type="text" [(ngModel)="playerOfTheTournament"]> -->
+<input type = "text" [(ngModel)] = "playerOfTheTournament">
+<p> {{playerOfTheTournament}}</p>
+
+
+ <!--- <label for=""> Spieler von den Monate</label>
+<input type=" text" [(ngModel)]="spielerVonDeiSaison">
+<h1>  {{spielerVonDeiSaison}}  </h1> -->
+
+
+<label for="">Spieler von die BundesLiga</label>
+<input type=" text"
+       [(ngModel)]="spielerVonDeiSaison">
+<h2> {{spielerVonDeiSaison}}  </h2>
+
+
+<label for="">Spieler Von den La Liga</label>
+<input type=" text" [(ngModel)]="spielerVonLaLiga">
+<p> {{spielerVonLaLiga}} </p>
