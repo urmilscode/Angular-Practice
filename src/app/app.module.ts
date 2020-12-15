@@ -13,6 +13,7 @@ import {PlayersComponent} from './Players/players.component';
 import { ServersComponent } from './servers/servers.component';
 import {FormsModule} from '@angular/forms';
 import {CandidateComponent} from './Candidate/candidate.component';
+import {HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import {CandidateComponent} from './Candidate/candidate.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
