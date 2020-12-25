@@ -14,6 +14,7 @@ import { ServersComponent } from './servers/servers.component';
 import {FormsModule} from '@angular/forms';
 import {CandidateComponent} from './Candidate/candidate.component';
 import {HttpClientModule} from '@angular/common/http';
+import {TeamsComponent} from './teams/teams.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import {HttpClientModule} from '@angular/common/http';
     FootballComponent,
     PlayersComponent,
     ServersComponent,
-    CandidateComponent
+    CandidateComponent,
+    TeamsComponent
   ],
   imports: [
     BrowserModule,

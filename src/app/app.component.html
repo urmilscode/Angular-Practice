@@ -10,5 +10,42 @@
 <app-servers></app-servers> -->
 
 
-<h1>Hello this is a test component!!</h1>
-<app-candidate> </app-candidate>
+<!--<h1>Hello this is a test component!!</h1>
+<app-candidate> </app-candidate> -->
+
+
+<!--
+<h1>  Hello This is a test component !!  </h1>
+<h3> Add new servers or Blueprints!! </h3>
+
+<label for="servername">Server Name</label>
+<input type="text" of = "servername" (input)="getServerName($event)">
+
+<br>
+
+<label for="serverc">Server Content</label>
+<input type="text" of="serverc" (input)="getServerData($event)">
+
+<br>
+
+<button class ="btn btn-primary" (click) = "serverName">Add Server</button>
+<button class = "btn btn-primary" (click) = "serverContent">Add Server Blueprint</button>
+
+<p> {{serverName}} </p>
+<p> {{serverContent}} </p>
+
+
+<label for="footballername">Footballer Name</label>
+<input type=" text" class = "form-control" of="footballername">
+
+<label for=" footballerclub">Footballer Club</label>
+<input type="text" class="form-control" of="footballerclub">
+
+<br/>
+
+<button class = "btn btn-primary"  [(ngModel)]="footballerNames" >Add footballer name</button>
+<button class = "btn btn-danger" > Add footballer Club </button>
+
+<!-- STRING INTERPOLATION TO OUTPUT THE DATA -->
+
+<app-team></app-team>

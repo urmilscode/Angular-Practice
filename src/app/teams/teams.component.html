@@ -1,0 +1,30 @@
+<h1>Total Number of teams</h1>
+
+<p *ngFor="let team of teams">
+  {{ team }}
+</p>
+
+
+<ul *ngFor="let player of players">
+  <li>{{ player }}</li>
+</ul>
+<br>
+<h3> Serie A players</h3>
+
+<ul *ngFor="let italy of serieAPlayers">
+  <li>{{italy}}</li>
+</ul>
+
+
+<h3> La Liga players</h3>
+
+<ul *ngFor="let spain of laligaPlayers">
+  <li>{{spain}}</li>
+</ul>
+
+
+<h2>Bundesliga Players  </h2>
+
+<ul *ngFor="let db of bundesligaPlayers">
+  {{db}}
+</ul>
