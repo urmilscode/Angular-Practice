@@ -8,4 +8,16 @@
 
 
 <label for="plant">Add new plant</label>
-<input type=" text" of="plant" (input)="getPlantData($event)">
+<input type=" text" of="plant"  (input)="getPlantData($event)">
+<p>{{plantDetails}}</p>
+
+
+<label for="details">New plant details </label>
+<input type="text" of="details" (input)="getDetailData($event)"> <br/>
+<button class="btn btn-primary" (click)="getDetails()">Get More Details</button>
+<p>{{details}}</p>
+<p>{{detailData}}</p>
+
+<label for="additional">Additional features</label>
+<input type="text" of="additional" [(ngModel)]="details">
+<p>{{details}}</p>
