@@ -1,0 +1,11 @@
+<h1> List of different plants </h1>
+
+<ul>
+  <li *ngFor="let plant of plantList">
+    {{ plant }}
+  </li>
+</ul>
+
+
+<label for="plant">Add new plant</label>
+<input type=" text" of="plant" (input)="getPlantData($event)">

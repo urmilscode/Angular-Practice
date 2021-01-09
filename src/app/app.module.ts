@@ -14,8 +14,10 @@ import { ServersComponent } from './servers/servers.component';
 import {FormsModule} from '@angular/forms';
 import {CandidateComponent} from './Candidate/candidate.component';
 import {HttpClientModule} from '@angular/common/http';
-import {TeamsComponent} from './teams/teams.component';
-
+import {UserComponent} from './user/user.component';
+import {TeamComponent} from './teams/teams.component';
+import {TechCompaniesComponent} from './TechCompanies/tc.component';
+import {PlantComponent} from './Plants/plants.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,10 @@ import {TeamsComponent} from './teams/teams.component';
     PlayersComponent,
     ServersComponent,
     CandidateComponent,
-    TeamsComponent
+    UserComponent,
+    TeamComponent,
+    TechCompaniesComponent,
+    PlantComponent
   ],
   imports: [
     BrowserModule,
